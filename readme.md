@@ -6,13 +6,13 @@
 
 ### FTP:
 ```
- host: kavapp.ftp.tools
- login: kavapp_maslov
+host: kavapp.ftp.tools
+login: kavapp_maslov
 pass: 645Nj8nvCEYu
 ```
 ### MySQL:
 ```
- host: coffee20.mysql.tools 
+host: coffee20.mysql.tools 
 login: coffee20_maslov
 pass: tjXkX9uG569R
 ```
