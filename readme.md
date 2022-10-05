@@ -57,6 +57,30 @@ pass: tjXkX9uG569R
     HTTP/1.1 404
     Message : Task Not Found 
     
+## Create new task     
+
+### Request
+
+`POST /tasks/ task_id := 3 task_name = writing`
+
+### Response
+
+    HTTP/1.1 message : task created
+    Status: 201
+    
+## Update specific task     
+
+### Request
+
+`PATCH /tasks/1`
+`task_id= 1 task_name= rest`
+
+### Response
+
+    HTTP/1.1 message : task updated
+    Status: 200 
+   
+    
 ## Delete specific task  
 
 ### Request
